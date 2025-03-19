@@ -101,14 +101,13 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1200/800') no-repeat center center/cover;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-            padding-top: 70px;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('travel.jpg') no-repeat center center/cover;
+            height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
         }
         
         .hero-content {
@@ -496,7 +495,8 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-content">
+        <div class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('travel.jpg') no-repeat center center/cover;">
+            <div class="hero-content">
             <h1>All India Transport Services</h1>
             <p>Reliable, efficient, and affordable transport solutions across India. We connect businesses and individuals with seamless logistics services.</p>
             <a href="#contact" class="cta-button">Get a Quote</a>
